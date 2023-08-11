@@ -4,11 +4,11 @@
 
 /* brand color palette */
 :root {
-  --primary: rgb(224, 18, 97);
+  --primary: rgb(81, 140, 216);
   --secondary: rgb(5, 1, 17);
   --tertiary: rgb(16, 131, 96);
   --dark: rgb(189, 193, 201);
-  --light: rgb(211, 195, 54);
+  --light: rgb(163, 8, 73);
 }
 
 body {
@@ -42,6 +42,7 @@ header {
   flex-wrap: wrap;
   align-items: center;
   background-color: var(--tertiary);
+  
   
 }
 
@@ -180,8 +181,33 @@ nav a:hover {
   align-items: center;
   height: 100%;
 }
-.Modeste application {
-  background-image: url("../images/I1.jpg");
+
+/*image*/
+
+
+.Modeste {
+  background-image: url("../Image/I2.jpg");
+  background-size: cover; 
+  background-position: center;
+  
+}
+
+.Paul {
+  background-image: url("../Image/I1.jpg");
+  background-size: contain; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  
+}
+
+.Ndatimana {
+  background-image: url("../Image/I3.jpg");
+  background-size: contain; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  
 }
 
 
